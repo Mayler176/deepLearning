@@ -1,0 +1,12 @@
+streamlit
+tensorflow==2.13.0
+keras==2.13.1
+scikit-learn
+pandas
+matplotlib
+seaborn
+numpy
+opencv-python
+jovian
+contractions
+kaggle
