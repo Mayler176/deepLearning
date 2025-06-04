@@ -74,7 +74,7 @@ elif opcion == "📈 Regresión":
 
     @st.cache_resource
     def cargar_modelo_regresion():
-        return joblib.load("regression.pkl")  # o .h5 si es NN
+        return joblib.load("regression.h5")  # o .h5 si es NN
 
     modelo_reg = cargar_modelo_regresion()
 
