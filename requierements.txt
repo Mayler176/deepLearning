@@ -1,0 +1,12 @@
+streamlit
+tensorflow
+keras
+scikit-learn
+pandas
+matplotlib
+seaborn
+numpy
+opencv-python
+jovian
+contractions
+kaggle
