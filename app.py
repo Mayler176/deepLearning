@@ -74,7 +74,8 @@ elif opcion == "📈 Regresión":
 
     @st.cache_resource
     def cargar_modelo_regresion():
-        return joblib.load("regression.h5")  # o .h5 si es NN
+        return tf.keras.models.load_model("regression.h5")
+
 
     modelo_reg = cargar_modelo_regresion()
 
