@@ -10,4 +10,4 @@ opencv-python
 jovian
 contractions
 kaggle
-cv2
+opencv-python==4.8.0.76
