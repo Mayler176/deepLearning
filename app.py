@@ -3,6 +3,7 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
+
 @st.cache_resource
 def cargar_modelo():
     return tf.keras.models.load_model("modelo_piezas_ligero.h5", compile=False)
