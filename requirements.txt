@@ -1,0 +1,10 @@
+streamlit
+scikit-learn
+tensorflow
+keras
+pandas
+matplotlib
+seaborn
+numpy
+opencv-python
+jovian
